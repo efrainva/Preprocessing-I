@@ -84,24 +84,69 @@ h1{
 	font-size: 5rem;
 	padding: 4rem;
 	margin: 10rem;
-	background: whitesmoke;
+	background: rgba(245, 245, 245, 0.5);
+	border: 2px solid whitesmoke;
 	border-radius: 10px;
 }
 
-.p{ 
+.top-2{ 
 	margin :5rem;
-	padding: 1rem 10rem;
+	padding: .5rem 3rem;
 	border-radius: 10px;
-	width: 300px;
+
 	font-size: 3rem;
-	background: whitesmoke;
+	background: rgba(245, 245, 245, 0.5);
+	border: 2px solid whitesmoke;
 }
 
 .top{
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
-@media(max-width:800){
+.p{
+	font-size: 4rem;
+}
+.first-p{
+	padding-top: 10px;
+}
+p{
+	font-size: 1.75rem;
+	text-align: center;
+	line-height: 1.25;
+}
+.bottom{
+	display: flex;
+	display: wrap;
+	margin: 0 auto;
+	width: 80%;
+	background: rgba(245, 245, 245, 0.5);
+	border: 2px solid whitesmoke;
+	border-radius: 10px;
 
+	.used{
+		font-size: 4rem;
+		padding: 4rem ;
+		border: 2px solid whitesmoke;
+		border-width: 0px 2px 0px 0px;
+	}
+
+	.bot{
+		display: flex;
+		flex-direction: row;
+		padding: 3rem ;
+	}
+
+	p{
+		font-size: 2rem;
+		padding: 2rem 1rem;
+	}
+
+}
+
+
+@media(max-width:800){
+	
 }
 
 @media(max-width:500){
